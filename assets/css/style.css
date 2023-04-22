@@ -1,0 +1,27 @@
+@charset 'utf-8';
+@import './reset.css';
+@import './custom-grid.css';
+
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 80%;
+    height: 100vh;
+    border: firebrick 3px solid;
+}
+.inner-wraper {
+    width: 100%;
+    height: 100%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    /* height: 400px; */
+    object-fit: cover;
+    object-position: top center;
+}
+
